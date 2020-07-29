@@ -6,9 +6,9 @@ public class Hotel {
     private  String name;
     private  String price;
     private  String miaoshu;
-    private  String bed;
-    private  String day;
-    private  String star;
+    private  int bed;
+    private  int day;
+    private  int star;
     private  String startdate;
     private  String addr;
 
@@ -53,27 +53,27 @@ public class Hotel {
         this.miaoshu = miaoshu;
     }
 
-    public String getBed() {
+    public int getBed() {
         return bed;
     }
 
-    public void setBed(String bed) {
+    public void setBed(Integer bed) {
         this.bed = bed;
     }
 
-    public String getDay() {
+    public int getDay() {
         return day;
     }
 
-    public void setDay(String day) {
+    public void setDay(Integer day) {
         this.day = day;
     }
 
-    public String getStar() {
+    public int getStar() {
         return star;
     }
 
-    public void setStar(String star) {
+    public void setStar(Integer star) {
         this.star = star;
     }
 
