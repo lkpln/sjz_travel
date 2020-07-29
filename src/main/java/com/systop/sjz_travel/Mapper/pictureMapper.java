@@ -8,7 +8,5 @@ public interface pictureMapper {
 //    asd
 //        a
 //    sd
-//                as
-//    d
-//                        asd
+
 }
