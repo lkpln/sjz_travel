@@ -17,4 +17,29 @@ public class Userserviceimpl implements Userservice {
     public User userlogin(User user) {
         return usermapper.userlogin(user);
     }
+
+    @Override
+    public Integer userzhuce(User user) {
+        return usermapper.userzhuce(user);
+    }
+
+    @Override
+    public User userpassback(User user) {
+        return usermapper.userpassback(user);
+    }
+
+    @Override
+    public User userupdatepassword(User user) {
+        return usermapper.userupdatepassword(user);
+    }
+
+    @Override
+    public User userselectbyid(User user) {
+        return usermapper.userselectbyid(user);
+    }
+
+    @Override
+    public int userupdate(User user) {
+        return usermapper.userupdate(user);
+    }
 }
