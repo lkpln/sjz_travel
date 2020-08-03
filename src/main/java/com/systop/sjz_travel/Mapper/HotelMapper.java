@@ -8,9 +8,13 @@ import java.util.List;
 @Mapper
 public interface HotelMapper  {
 
+
     //查询全部酒店信息
     @Select("select * from hotel")
     List<Hotel> SelectAllHotel(Hotel hotel);
+
+    @Select("select * from hotel where id=#{?}")
+    List<Hotel> SelectById(String hotel);
 
     //添加酒店信息
     @Insert("insert into hotel (img,name,price,miaoshu,bed,day,star,startdate,addr) values (#{img},#{name},#{price},#{miaoshu}," +
@@ -25,4 +29,8 @@ public interface HotelMapper  {
     //通过id删除酒店信息
     @Delete("delete from hotel where id = #{id}")
     Integer DeleteHotel(Hotel hotel);
+
+    //根据城市名字模糊查询
+    @Select("select * from hotel where name like '%嘿嘿%'")
+    List<Hotel> findByAddrLike(String addr);
 }

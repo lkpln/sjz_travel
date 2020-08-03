@@ -1,13 +1,24 @@
 package com.systop.sjz_travel.pojo;
 
-public class Hotel_orders {
+import org.springframework.data.annotation.Id;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+import java.io.Serializable;
+import java.math.BigDecimal;
+
+@Entity
+@Table(name = "hotel_orders")
+public class Hotel_orders implements Serializable {
+    @javax.persistence.Id
+    @Id
     private  String id;
     private  String scenicid;
     private  String userid;
-    private  String qty;
-    private  String payment;
+    private  Integer qty;
+    private  BigDecimal payment;
     private  String status;
-    private  String paytime;
+    private  java.util.Date paytime;
     private  String phone;
     private  String username;
     private  String scenicname;
@@ -39,19 +50,19 @@ public class Hotel_orders {
         this.userid = userid;
     }
 
-    public String getQty() {
+    public Integer getQty() {
         return qty;
     }
 
-    public void setQty(String qty) {
+    public void setQty(Integer qty) {
         this.qty = qty;
     }
 
-    public String getPayment() {
+    public BigDecimal getPayment() {
         return payment;
     }
 
-    public void setPayment(String payment) {
+    public void setPayment(BigDecimal payment) {
         this.payment = payment;
     }
 
@@ -63,11 +74,11 @@ public class Hotel_orders {
         this.status = status;
     }
 
-    public String getPaytime() {
+    public java.util.Date getPaytime() {
         return paytime;
     }
 
-    public void setPaytime(String paytime) {
+    public void setPaytime(java.util.Date paytime) {
         this.paytime = paytime;
     }
 
@@ -109,5 +120,22 @@ public class Hotel_orders {
 
     public void setEnd(String end) {
         this.end = end;
+    }
+    @Override
+    public String toString() {
+        return "Hotel_orders{" +
+                "id='" + id + '\'' +
+                ", scenicid='" + scenicid + '\'' +
+                ", userid='" + userid + '\'' +
+                ", qty=" + qty +
+                ", payment=" + payment +
+                ", status='" + status + '\'' +
+                ", paytime=" + paytime +
+                ", phone='" + phone + '\'' +
+                ", username='" + username + '\'' +
+                ", scenicname='" + scenicname + '\'' +
+                ", begin='" + begin + '\'' +
+                ", end='" + end + '\'' +
+                '}';
     }
 }

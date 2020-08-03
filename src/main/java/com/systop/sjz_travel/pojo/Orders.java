@@ -1,13 +1,28 @@
 package com.systop.sjz_travel.pojo;
 
-public class Orders {
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import java.io.Serializable;
+import java.math.BigDecimal;
+
+/**
+ * @author lenovo
+ */
+@Entity
+@Table(name = "orders")
+public class Orders  implements Serializable {
+
+    @Id
     private  String id;
+
     private  String scenicid;
     private  String userid;
-    private  String qty;
-    private  String payment;
+    private  Integer qty;
+    private  BigDecimal payment;
     private  String status;
-    private  String paytime;
+    private  java.util.Date paytime;
     private  String phone;
     private  String username;
     private  String scenicname;
@@ -37,19 +52,19 @@ public class Orders {
         this.userid = userid;
     }
 
-    public String getQty() {
+    public Integer getQty() {
         return qty;
     }
 
-    public void setQty(String qty) {
+    public void setQty(Integer qty) {
         this.qty = qty;
     }
 
-    public String getPayment() {
+    public BigDecimal getPayment() {
         return payment;
     }
 
-    public void setPayment(String payment) {
+    public void setPayment(BigDecimal payment) {
         this.payment = payment;
     }
 
@@ -61,11 +76,11 @@ public class Orders {
         this.status = status;
     }
 
-    public String getPaytime() {
+    public java.util.Date getPaytime() {
         return paytime;
     }
 
-    public void setPaytime(String paytime) {
+    public void setPaytime(java.util.Date paytime) {
         this.paytime = paytime;
     }
 
@@ -91,5 +106,22 @@ public class Orders {
 
     public void setScenicname(String scenicname) {
         this.scenicname = scenicname;
+    }
+
+
+    @Override
+    public String toString() {
+        return "Orders{" +
+                "id='" + id + '\'' +
+                ", scenicid='" + scenicid + '\'' +
+                ", userid='" + userid + '\'' +
+                ", qty=" + qty +
+                ", payment=" + payment +
+                ", status='" + status + '\'' +
+                ", paytime=" + paytime +
+                ", phone='" + phone + '\'' +
+                ", username='" + username + '\'' +
+                ", scenicname='" + scenicname + '\'' +
+                '}';
     }
 }

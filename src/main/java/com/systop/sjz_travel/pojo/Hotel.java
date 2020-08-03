@@ -1,15 +1,35 @@
 package com.systop.sjz_travel.pojo;
 
-public class Hotel {
+
+import org.springframework.data.annotation.Id;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+import java.io.Serializable;
+
+/**
+ * 功能描述: <br>
+ * @Info: 实体类
+ * @Return:
+ * @Author: 李航飞
+ * @Date: 2020/7/30 10:37
+ */
+
+@Entity
+@Table(name="hotel")
+public class Hotel implements Serializable {
+    @javax.persistence.Id
+    @Id
     private  String id;
+
     private  String img;
     private  String name;
-    private  String price;
+    private  Double price;
     private  String miaoshu;
-    private  int bed;
-    private  int day;
-    private  int star;
-    private  String startdate;
+    private  Integer bed;
+    private  Integer day;
+    private  Integer star;
+    private  java.util.Date startdate;
     private  String addr;
 
 
@@ -37,11 +57,11 @@ public class Hotel {
         this.name = name;
     }
 
-    public String getPrice() {
+    public Double getPrice() {
         return price;
     }
 
-    public void setPrice(String price) {
+    public void setPrice(Double price) {
         this.price = price;
     }
 
@@ -53,7 +73,7 @@ public class Hotel {
         this.miaoshu = miaoshu;
     }
 
-    public int getBed() {
+    public Integer getBed() {
         return bed;
     }
 
@@ -61,7 +81,7 @@ public class Hotel {
         this.bed = bed;
     }
 
-    public int getDay() {
+    public Integer getDay() {
         return day;
     }
 
@@ -69,7 +89,7 @@ public class Hotel {
         this.day = day;
     }
 
-    public int getStar() {
+    public Integer getStar() {
         return star;
     }
 
@@ -77,11 +97,11 @@ public class Hotel {
         this.star = star;
     }
 
-    public String getStartdate() {
+    public java.util.Date getStartdate() {
         return startdate;
     }
 
-    public void setStartdate(String startdate) {
+    public void setStartdate(java.util.Date startdate) {
         this.startdate = startdate;
     }
 
