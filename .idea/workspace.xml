@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6ce7a20-9f91-47dd-ba1b-e96f99c9c6b0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,12 +26,6 @@
     <option name="ONTO" value="refs/remotes/origin/master" />
   </component>
   <component name="Git.Settings">
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--follow-tags" />
-        <option name="title" value="Current Branch" />
-      </GitPushTagMode>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
@@ -136,7 +129,7 @@
       <workItem from="1596070904713" duration="19604000" />
       <workItem from="1596159177322" duration="6032000" />
       <workItem from="1596194941842" duration="1832000" />
-      <workItem from="1596337668833" duration="11111000" />
+      <workItem from="1596337668833" duration="11358000" />
     </task>
     <task id="LOCAL-00001" summary="最后了啊">
       <created>1595929553643</created>
@@ -229,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596423549852</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="11111111">
+      <created>1596425933493</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1596425933494</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,17 +243,18 @@
     <MESSAGE value="3213212132最后了aaaa123456" />
     <MESSAGE value="最后了aaaa123456" />
     <MESSAGE value="最后了啊" />
-    <option name="LAST_COMMIT_MESSAGE" value="最后了啊" />
+    <MESSAGE value="11111111" />
+    <option name="LAST_COMMIT_MESSAGE" value="11111111" />
   </component>
   <component name="WindowStateProjectService">
     <state x="139" y="182" key="#Assign_Data_Sources" timestamp="1596077068744">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="139" y="182" key="#Assign_Data_Sources/0.0.1920.1040@0.0.1920.1040" timestamp="1596077068744" />
-    <state x="962" y="190" key="#Deployment" timestamp="1596423513385">
+    <state x="962" y="190" key="#Deployment" timestamp="1596425877099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="962" y="190" key="#Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1596423513385" />
+    <state x="962" y="190" key="#Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1596425877099" />
     <state x="221" y="164" key="#Notifications" timestamp="1596012966870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -270,14 +271,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="229" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596071223938" />
-    <state x="211" y="123" key="CommitChangelistDialog2" timestamp="1596423541945">
+    <state x="211" y="123" width="841" height="813" key="CommitChangelistDialog2" timestamp="1596425931756">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="211" y="123" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596423541945" />
-    <state x="368" y="98" key="DiffContextDialog" timestamp="1596011548788">
+    <state x="211" y="123" width="841" height="813" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596425931756" />
+    <state x="368" y="98" key="DiffContextDialog" timestamp="1596425861773">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="368" y="98" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596011548788" />
+    <state x="368" y="98" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596425861773" />
     <state x="517" y="228" key="FileChooserDialogImpl" timestamp="1596425628940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -330,10 +331,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="286" y="227" key="VCS.ChangeListViewerDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596425319314" />
-    <state x="323" y="187" key="Vcs.Push.Dialog.v2" timestamp="1596423721560">
+    <state x="323" y="187" key="Vcs.Push.Dialog.v2" timestamp="1596425973883">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="323" y="187" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596423721560" />
+    <state x="323" y="187" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596425973883" />
     <state x="265" y="241" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1595990856839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
